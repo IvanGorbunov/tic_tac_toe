@@ -1,6 +1,6 @@
 # Tic-tac-toe
 
-Online Tic-tac-toe multi-users game
+Online Tic-tac-toe multiplayer game using WebSockets Starlette.
 
 ### Plan:
 
