@@ -24,4 +24,12 @@ Online Tic-tac-toe multi-users game
    pip install -r requirements.txt
    ```
 
-3. 
+3. Run webserver:
+
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+4. 
+
+
