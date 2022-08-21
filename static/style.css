@@ -1,0 +1,7 @@
+.game-on{
+    display: block;
+}
+
+.game-off{
+    display: none;
+}
