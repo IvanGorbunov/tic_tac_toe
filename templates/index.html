@@ -16,7 +16,7 @@
 
 <main>
     <div class="container">
-        <div id="game">
+        <div id="game"  class="game-on">
             <hr>
             <h4>Create a new game:</h4>
             <button class="btn btn-success" id="create-game">Create</button>
@@ -28,6 +28,21 @@
         </div>
 
         <h4 id="player" class="game-off"></h4>
+
+        <section id="tic-tac-toe" class="game-off">
+            <div class="game-container">
+                <div data-cell-index="0" class="cell"></div>
+                <div data-cell-index="1" class="cell"></div>
+                <div data-cell-index="2" class="cell"></div>
+                <div data-cell-index="3" class="cell"></div>
+                <div data-cell-index="4" class="cell"></div>
+                <div data-cell-index="5" class="cell"></div>
+                <div data-cell-index="6" class="cell"></div>
+                <div data-cell-index="7" class="cell"></div>
+                <div data-cell-index="8" class="cell"></div>
+            </div>
+            <button id="close-game">Exit from game</button>
+        </section>
 
     </div>
 </main>
