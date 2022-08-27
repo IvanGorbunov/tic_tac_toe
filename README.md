@@ -16,7 +16,7 @@ Online Tic-tac-toe multiplayer game using WebSockets Starlette.
 1. Clone the repository:
 
    ```bash
-   git clone ...
+   git clone https://github.com/IvanGorbunov/tic_tac_toe.git
    ```
 2. Install all necessary package:
 
